@@ -19,7 +19,7 @@ public class Fluxo {
 		System.out.println("Fim do metodo1");
 	}
 
-	private static void metodo2() {
+	private static void metodo2() throws MinhaException {
 		System.out.println("Ini do metodo2");
 		throw new MinhaException("Deu Errado!");
 		// System.out.println("Fim do metodo2");
